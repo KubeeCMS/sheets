@@ -21,7 +21,6 @@
  * License URI:  https://opensource.org/licenses/GPL-2.0
  * Text Domain:  woosheets
  * Domain Path:  /i18n/languages/
- * Network:      true
  * Requires WP:  5.5
  * Requires PHP: 7.3
  * WC tested up to: 5.5.0
