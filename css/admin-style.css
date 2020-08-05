@@ -1,0 +1,251 @@
+.googlesettinginput
+{
+	padding: 6px;	
+}
+.newsheetinput
+{
+	display:none;
+}
+#syncloader, #sendloader, #licenceloader
+{
+	float: left;
+	display:none;		
+}
+#synctext, #sendtext, #licencetext
+{
+	float: left;
+    margin-left: 4px;
+	display:none;
+}
+#sendtext, #licencetext{
+	margin-top: 2px;	
+}
+.form-table th { padding: 15px 10px 15px 0px; }
+.form-table td, .woosheets-section-3.form-table td.custom-onoff  { padding: 9px 10px; }
+#authtext{	display:none;}
+.vertical-tabs * { box-sizing: border-box; }	
+.vertical-tabs { padding: 50px 0px; font-family: arial; }
+.vertical-tabs .container { padding-left: 15px; padding-right: 15px; }
+.vertical-tabs .tab { float: left; background-color: #f7f7f7; height: auto; max-width: 150px; position: sticky; top: 30px; display:block;}
+.vertical-tabs .tab button { display: block; background-color: inherit; color: #333; padding: 22px 16px; width: 100%;
+ border: none; outline: none; text-align: center; cursor: pointer; transition: 0.3s; border-bottom: 1px solid #dedede; font-size: 14px;
+line-height: 20px; }
+.vertical-tabs .tab button:hover {background:#fff; }
+.vertical-tabs .tab button.active {background-color:#fff; border-bottom: 1px solid #ff5859; color: #ff5859; position: relative; }
+.vertical-tabs .tab button.active:before { content: ""; position: absolute; top:-1px; left: 0px; width: 100%; border-top:1px solid #ff5859; }
+.vertical-tabs .tab button.active:after { content: ""; position: absolute; top:0px; left: 0px; bottom:0px; border-left:1px solid #ff5859; }
+.vertical-tabs .tabcontent { display: none; background:#fff; padding: 30px; overflow: hidden; min-height: 500px; }
+.vertical-tabs .tab + .tabcontent { display: block; }
+.vertical-tabs .tabcontent h3 { font-size: 24px; font-weight: normal; margin: 0px 0px 20px; }
+.vertical-tabs .tabcontent h2 { font-size: 15px; font-weight: normal; color: #333; margin: 10px 0px 0px; }
+#sortable,#product-sortable { list-style-type: none; margin:0px 0px 8px; padding: 15px; width: 100%; border: 1px solid #ddd; float: left; }
+#sortable li, #product-sortable li { font-size: 13px; line-height: 15px; }
+#sortable li span.ui-icon, #product-sortable li span.ui-icon { position: absolute; margin-left: 0px; left: 1px; top: 19px; }
+.vertical-tabs .form-table select,
+.vertical-tabs .tabcontent input[type="date"], 
+.vertical-tabs .tabcontent input[type="datetime-local"], 
+.vertical-tabs .tabcontent input[type="datetime"], 
+.vertical-tabs .tabcontent input[type="email"], 
+.vertical-tabs .tabcontent input[type="month"], 
+.vertical-tabs .tabcontent input[type="number"], 
+.vertical-tabs .tabcontent input[type="password"], 
+.vertical-tabs .tabcontent input[type="search"], 
+.vertical-tabs .tabcontent input[type="tel"], 
+.vertical-tabs .tabcontent input[type="text"], 
+.vertical-tabs .tabcontent input[type="time"], 
+.vertical-tabs .tabcontent input[type="url"], 
+.vertical-tabs .tabcontent input[type="week"] { height: 36px; border-radius:0px; border-color:#ddd; box-shadow: none !important; }
+.vertical-tabs .form-table select,
+.vertical-tabs .tabcontent input[type="text"] { width: 320px; }
+.woosheets_headers > label { color: #333; font-weight: normal; font-size: 15px; margin: 15px 0px 8px; display: block; }
+.vertical-tabs .form-table th { color: #333; font-weight: normal; font-size: 15px; width: 242px; text-transform: capitalize; }
+.wp-core-ui .form-table .woosheets-button,
+.wp-core-ui .form-table .woosheets-button-secondary { color: #ff5859; border-color: #ff5859; background: #fff; box-shadow: none; font-size: 15px; display: inline-block; line-height: 2; min-height: 28px; margin: 0; cursor: pointer; border-width: 1px; border-style: solid; -webkit-appearance: none; border-radius: 3px; white-space: nowrap; text-decoration: none; box-sizing: border-box; vertical-align: top; padding: 0 10px; }
+.wp-core-ui .form-table .woosheets-button:hover, 
+.wp-core-ui .form-table .woosheets-button-secondary:hover { color: #fff; background:#ff5859; border-color: #ff5859; }
+.wp-core-ui .form-table .woosheets-button:focus, 
+.wp-core-ui .form-table .woosheets-button-secondary:focus,
+.wp-core-ui .vertical-tabs .woosheets-button-primary:focus{outline: none;}
+.wp-core-ui .vertical-tabs .woosheets-button-primary { background: #ff5859; border-color: #ff5859; box-shadow: none; padding: 4px 5px;
+min-width: 140px; font-size: 16px; color: #fff; text-decoration: none; text-shadow: none; display: inline-block; line-height: 2; min-height: 28px; margin: 0; cursor: pointer; border-width: 1px; border-style: solid; -webkit-appearance: none; border-radius: 3px; white-space: nowrap; box-sizing: border-box; }
+.wp-core-ui .vertical-tabs .woosheets-button-primary:hover { background: #ff677b; border-color: #ff677b; }
+#support .right .woosheets-support, #support .right  .woosheets-support-secondary { color: #ff5859; border-color: #ff5859; background: #fff; box-shadow: none; font-size: 15px; display: inline-block; line-height: 2; min-height: 28px; margin: 0; cursor: pointer; border-width: 1px; border-style: solid; -webkit-appearance: none; border-radius: 3px; white-space: nowrap; text-decoration: none; box-sizing: border-box; vertical-align: top; padding: 0 10px;
+	}
+#support .right .woosheets-support:hover, #support .right  .woosheets-support-secondary:hover { color: #fff; background:#ff5859; border-color: #ff5859; } 
+.vertical-tabs input[type="radio"] { position: absolute; opacity:0; cursor: pointer; }
+.vertical-tabs input[type="radio"] + label { position: relative; padding-left:28px; }
+.vertical-tabs input[type="radio"] + label:before {
+top: -3px; content: ""; left: 0px; width: 17px; height: 17px; border-radius: 100%; position: absolute;
+ background:white; border: 2px solid #a4a4a4; }
+.vertical-tabs input[type="radio"]:checked + label:before { border-color: #ff5859; }
+.vertical-tabs input[type="radio"]:checked + label:after { content: ""; position: absolute; top: 4px; left: 7px; background: #ff5859; 
+width: 7px; height: 7px; border-radius: 100%; }
+.vertical-tabs .forminp #sortable , .vertical-tabs .forminp #product-sortable{ width: 100%; background: #fff; padding: 20px 15px; border: 1px solid #ddd; float: left; margin-bottom: 7px; } 
+.vertical-tabs #sortable li, .vertical-tabs #product-sortable li { float: left; width: 24%; position: relative; margin: 0.5%; padding:15px 50px 15px 20px;background: #fff; border: 1px solid #ddd; }
+.vertical-tabs #sortable li:nth-child(4n+1), .vertical-tabs #product-sortable li:nth-child(4n+1) { clear: both; }
+.vertical-tabs #sortable li:hover, .vertical-tabs #product-sortable li:hover { margin-top:0.5%;  } 
+.vertical-tabs input[type="checkbox"] { 
+  opacity:0; width:0px; height: 0px; margin:0px; min-width:1px; display: none;
+}
+.vertical-tabs input[type="checkbox"] + .checkbox-switch {
+ position: relative; cursor: pointer; background-color: #ccc; -webkit-transition: .4s;
+ transition: .4s; width: 40px; height: 20px; display: inline-block;
+}
+.checkbox-switch:before {
+position: absolute; content: ""; height: 16px; width: 16px; left: 3px;
+ bottom: 2px; background-color: white; -webkit-transition: .4s;
+transition: .4s;
+}
+.vertical-tabs input[type="checkbox"]:checked + .checkbox-switch { background-color: #ff5859; }
+.vertical-tabs input[type="checkbox"]:focus + .checkbox-switch {  box-shadow: 0 0 1px #ff5859; }
+.vertical-tabs input[type="checkbox"]:checked + .checkbox-switch:before {
+  -webkit-transform: translateX(18px);  -ms-transform: translateX(18px);  transform: translateX(18px);
+}
+.checkbox-switch { border-radius: 34px; }
+.checkbox-switch:before {  border-radius: 50%; }
+/****/
+.vertical-tabs input[type="checkbox"] + .checkbox-switch-new {
+ position: relative; cursor: pointer; background-color: #ccc; -webkit-transition: .4s;
+ transition: .4s; width: 34px; height: 12px; display: inline-block; position: absolute; right: 8px; top: 50%; margin-top:-5px; 
+}
+.checkbox-switch-new:before {
+position: absolute; content: ""; height: 18px; width: 18px; left: -1px;
+ bottom: -3px; background-color: white; -webkit-transition: .4s;
+transition: .4s;
+}
+.vertical-tabs input[type="checkbox"]:checked + .checkbox-switch-new { background-color: #fc9a9b;  }
+.vertical-tabs input[type="checkbox"]:focus + .checkbox-switch-new {  box-shadow: 0 0 1px #ff5859; }
+.vertical-tabs input[type="checkbox"]:checked + .checkbox-switch-new:before {
+  -webkit-transform: translateX(18px);  -ms-transform: translateX(18px);  transform: translateX(18px); background-color: #fd5051;
+}
+.checkbox-switch-new { border-radius: 34px; }
+.checkbox-switch-new:before {  border-radius: 50%; box-shadow: 0px 1px 2px rgba(0,0,0,0.15); }
+.woosheet-logo-section { padding: 25px 30px; 
+background: rgba(255,88,88,1);
+background: -moz-linear-gradient(left, rgba(255,88,88,1) 0%, rgba(255,103,123,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,88,88,1)), color-stop(100%, rgba(255,103,123,1)));
+background: -webkit-linear-gradient(left, rgba(255,88,88,1) 0%, rgba(255,103,123,1) 100%);
+background: -o-linear-gradient(left, rgba(255,88,88,1) 0%, rgba(255,103,123,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,88,88,1) 0%, rgba(255,103,123,1) 100%);
+background: linear-gradient(to right, rgba(255,88,88,1) 0%, rgba(255,103,123,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5858', endColorstr='#ff677b', GradientType=1 );
+}
+.woosheet-logo-section img { vertical-align: top; }
+.vertical-tabs .tablinks .button:before { }
+.vertical-tabs .tablinks .tab-icon { background: url(images/sprite-icon.png) 0px 0px no-repeat; width: 33px; height: 28px; margin: 0px auto 3px; display: block; }
+.vertical-tabs .googleapi-settings .tab-icon { background-position:0px 0px;  }
+.vertical-tabs .googleapi-settings.active .tab-icon { background-position:0px -48px; }
+.vertical-tabs .general-settings .tab-icon { background-position:0px -95px; width: 20px; height: 20px; }
+.vertical-tabs .general-settings.active .tab-icon { background-position:0px -135px; }
+.vertical-tabs .em-settings .tab-icon { background-position:0px -175px; width: 23px; height: 26px; }
+.vertical-tabs .em-settings.active .tab-icon { background-position:0px -220px; }
+.vertical-tabs .support .tab-icon { background-position:0px -265px; width: 25px; height: 27px; }
+.vertical-tabs .support.active .tab-icon { background-position:0px -312px; }
+.vertical-tabs .export .tab-icon { background-position: 0px -478px; width: 30px; height: 36px; }
+.vertical-tabs .export.active .tab-icon { background-position: 0px -514px;}
+.woosheets-section-3.form-table td { padding: 0px; }
+.woosheets-section-2 { margin:3px 0px 10px 0px;  }
+.woosheets-section-2 tr { float: left; width: 23%; background: #fff; margin: 1%; padding: 20px 10px;
+text-align: center; position: relative; -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out;
+border: 1px solid #ddd; }
+.vertical-tabs .woosheets-section-2 th { width: auto;  padding: 5px; display: block; font-size: 15px; text-align: center; text-transform: capitalize; }
+.vertical-tabs .woosheets-section-2 td { width: auto; padding: 5px;  margin:0px; display: block; }
+.vertical-tabs .woosheets-section-2 td fieldset label { margin: 0 !important; display: inline-block; vertical-align: top; }
+.woosheets-section-2 tr:nth-child(4n+1) { clear: both; }
+.woosheets-section-2 tr:hover { margin-top: 0px; }
+.woosheets-section-2 tbody { display: block;  margin-left: -1%; margin-right: -1%; }
+.woosheet-logo-section sup { font-size: 16px; color:#fff; margin-left: 5px; }
+.woosheet-logo-section .duc-btn { float: right;margin-left: 10px; }
+.woosheet-logo-section .duc-btn a { color: #fff; text-decoration: none; outline: none; font-size: 15px; border: 1px solid rgba(255,255,255,0.8); 
+  padding: 7px 15px 8px 43px; border-radius: 4px; margin: 3px 0px 0px; display: inline-block; position: relative; box-shadow: none;
+}
+.woosheet-logo-section .duc-btn a:before{ content: ""; background: url(images/sprite-icon.png) 0px -359px no-repeat; width: 20px; height: 22px; position: absolute;
+left: 15px; top: 5px;
+ }
+ p span.copy-icon:before { content: ""; background: url(images/sprite-icon.png) 0px -566px no-repeat; width: 20px; height: 22px; position: absolute;
+ }
+ .woosheet-logo-section .duc-btn a:hover { background:rgba(255,255,255,0.1); }
+.woosheets-supportform .form-field input[type=text], .woosheets-supportform .form-field input[type=email], .woosheets-supportform .form-field textarea{
+	width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.woosheet-logo-section .duc-btn1 { float: right;margin-left: 10px; }
+.woosheet-logo-section .duc-btn1 a { color: #fff; text-decoration: none; outline: none; font-size: 15px; border: 1px solid rgba(255,255,255,0.8); 
+  padding: 7px 15px 8px 46px; border-radius: 4px; margin: 3px 0px 0px; display: inline-block; position: relative; box-shadow: none;}
+.woosheet-logo-section .duc-btn1 a:before { content: ""; background: url(images/sprite-icon.png) 0px -648px no-repeat; width: 30px; height: 22px; position: absolute; left: 8px; top: 5px;
+ }
+ .woosheet-logo-section .duc-btn1 a:hover { background:rgba(255,255,255,0.1); }
+.vertical-tabs #googleapi-settings .options .form-table{ float: left; width: 60%; } 
+.vertical-tabs #googleapi-settings .options img.video-screenshot { float: right; width: 38%; }
+.vertical-tabs #googleapi-settings .submit{ clear: both; }
+.woosheets-section-3.form-table td.radio-box-td { padding-left: 10px; }
+.custom-disable { opacity: 0.5; } /*.woosheets_headers .ui-sortable-disabled*/
+.support-top-section .left { float: left; width: 48%;  } 
+.support-top-section .right { float: right; width: 49%;  } 
+.woosheets-supportform ol li ul { 	padding: 7px 0px 0px 15px; }
+.woosheets-supportform ol li ul li { list-style-type: initial; }
+.envato-market-blocks .woosheets-supportform .form-field input[type="text"], 
+.support-top-section .woosheets-supportform .form-field input[type="text"], 
+.support-top-section .woosheets-supportform .form-field input[type="email"], 
+.support-top-section .woosheets-supportform .form-field textarea { width: 100%; border-radius: 0px; padding: 8px 10px; }
+.support-top-section .woosheets-supportform .form-field textarea { height: 150px;  }
+.support-btm-section { clear: both; padding: 20px 0px 0px; border-top: 1px solid #ddd; }
+.support-top-section { float: left; width: 100%; margin-bottom:25px; }
+.support-top-section ul { margin: 10px 0px 22px; }
+.support-btm-section p { margin: 0px 0px 15px;  }
+.support-btm-section p a { color: #ff5859; text-decoration: none; }
+.support-top-section h4 { font-size: 15px; font-weight: normal; margin:0px 0px 4px;  }
+.envato-market-blocks .woosheets-supportform { width: 100%; float: left; margin-bottom: 22px;}
+.envato-market-blocks .description p { margin: 0px 0px 10px; }
+.envato-market-blocks .form-field { margin: 0px 0px 10px; }
+.envato-market-blocks .description a { color: #ff5859; text-decoration: none; }
+.check-icon li { margin: 0px 0px 6px; padding: 0px 0px 0px 24px;  list-style: none; position: relative;  }
+.check-icon li:before { content: ""; background: url(images/sprite-icon.png) 0px -401px no-repeat; position: absolute; left: 0px; top: 5px; width: 18px; height: 12px; }
+.close-icon li { margin: 0px 0px 6px; padding: 0px 0px 0px 18px;  list-style: none; position: relative;  }
+.close-icon li:before { content: ""; background: url(images/sprite-icon.png) 0px -433px no-repeat; position: absolute; left: 0px; top: 6px; width: 11px; height: 11px; }
+.consent-check-box { padding:12px 0px 0px; margin: 0px 0px 0px; border-top: 1px solid #ddd; clear: both; }
+.envato-market-blocks input[type="checkbox"] + .check-label {
+ cursor: pointer; -webkit-transition: .4s; transition: .4s; width:20px; height: 20px; position: absolute; left:0px; 
+ top:-3px; border: 1px solid #ddd; }
+.envato-market-blocks input[type="checkbox"]:checked + .check-label:before { content: ""; background: url(images/sprite-icon.png) 0px -463px no-repeat; width: 13px; height: 11px; position: absolute; top:4px; left: 3px; }
+.consent-check-box .tm-epo-style-wrapper-label { position: relative; padding:0px 0px 0px 28px } 
+.vertical-tabs .tabcontent p a { color: #ff5859; text-decoration: none; }
+.envato-market-blocks .col-left { float: left; width: 48%;  } 
+.envato-market-blocks .col-right { float: right; width: 49%;  } 
+.radio-box-td input.disabled + label { opacity: 0.5; }
+td.td-woosheets-headers { padding:9px 0px; }
+#woosheets-headers-notice{ display: block;font-size: 13px;padding-bottom: 10px; }
+#ordtodate{ margin-left:19px; }
+p.submit .processbar{display:inline-block;padding-left: 13px;}
+p.submit .processbar img, p.submit .processbar span{float:left;} 
+p.submit .processbar span{margin-top: 2px;margin-left: 5px;}
+.exportrow{ padding-top: 16px !important; }
+#spreadsheet_url{padding: 4px 20px;}
+#view_spreadsheet{margin-left: 7px;text-decoration: none;border: 1px solid;border-radius: 4px; } 
+.td-prdcat-woosheets{display:none;}
+.wp-core-ui .vertical-tabs .woosheets-button-primary.copy-icon { background:#fff; border: 1px solid #ff5859; min-width: 45px;
+position: relative; padding:5px 5px;  display: inline-block;
+vertical-align: middle; margin: 0px 0px 0px 10px; }
+.wp-core-ui .vertical-tabs span.copy-icon:before { content: ""; background: url(images/sprite-icon.png) 0px -566px no-repeat; width: 20px; height: 22px; display: block; position: static; margin: 0px auto;
+ }
+.wp-core-ui .vertical-tabs .woosheets-button-primary.copy-icon:hover:before { background-position: 0px -608px; }
+.wp-core-ui .vertical-tabs .woosheets-button-primary.copy-icon:hover { background:#ff5859; }
+.woosheets-error .woosheets-message-icon{ padding: 10px 0px 23px 0px; }
+.woosheets-error .woosheets-message-icon img{ float: left; }
+.woosheets-error .woosheets-message-icon p{ padding-left: 64px;padding-top: 11px; }
+.woosheets_headers #sortable li span.ui-icon.ui-icon-pencil,.woosheets_headers #product-sortable li span.ui-icon.ui-icon-pencil{ left: 165px; }
+.woosheets_headers #sortable li span.ui-icon.ui-icon-check,.woosheets_headers #product-sortable li span.ui-icon.ui-icon-check{left: 165px;}
+.woosheets_headers #sortable li.ui-state-default.ui-sortable-handle.custom,.woosheets_headers #product-sortable li.ui-state-default.ui-sortable-handle.custom{ padding:5px 50px 5px 20px }
+#custom-disable-id span.checkbox-switch, .woosheets-section-last span.checkbox-switch
+{ margin-top: 7px;}
+.woosheets-section-1 span.checkbox-switch
+{ margin-top: 4px;}
+#spreadsheet_xslxurl{ margin-right: 10px; margin-left: 10px; }
+#spreadsheet_xslxurl, #spreadsheet_csvurl{ padding: 11px 20px; display:none; }
+.downloadall{ padding-top: 20px !important; } 

@@ -1,0 +1,527 @@
+# Copyright (C) 2020 Creative Werk Designs
+# This file is distributed under the same license as the WooSheets plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooSheets\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woosheets\n"
+"POT-Creation-Date: 2020-02-17T14:05:16+01:00\n"
+"PO-Revision-Date: 2020-02-17 18:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: Creative Werk Designs\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: woosheets\n"
+
+#. Plugin Name of the plugin
+#: includes/class-wc-woosheets-setting.php:55
+msgid "WooSheets"
+msgstr "WooSheets"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.creativewerkdesigns.com/"
+msgstr "http://www.creativewerkdesigns.com/"
+
+#. Description of the plugin
+msgid ""
+"Manage WooCommerce Orders with Google Spreadsheet - Add new row whenever new "
+"order has been placed and automatically move order row whenever order status "
+"has been changed within Google Sheet."
+msgstr ""
+"Gérez les commandes WooCommerce avec Google Spreadsheet - Ajoutez une "
+"nouvelle ligne chaque fois qu'une nouvelle commande a été passée et déplacez "
+"automatiquement la ligne de commande chaque fois que l'état des commandes a "
+"été modifié dans Google Sheet."
+
+#. Author of the plugin
+msgid "Creative Werk Designs"
+msgstr "Creative Werk Designs"
+
+#: includes/class-wc-woosheets-setting.php:104
+msgid "View Documentation"
+msgstr "Voir la documentation"
+
+#: includes/class-wc-woosheets-setting.php:104
+#: includes/class-wc-woosheets-setting.php:148
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/class-wc-woosheets-setting.php:154
+msgid "Google API"
+msgstr "API Google"
+
+#: includes/class-wc-woosheets-setting.php:154
+#: includes/class-wc-woosheets-setting.php:155
+#: includes/class-wc-woosheets-setting.php:157
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/class-wc-woosheets-setting.php:155
+msgid "General"
+msgstr "Général"
+
+#: includes/class-wc-woosheets-setting.php:156
+#: includes/class-wc-woosheets-setting.php:246
+msgid "Export Orders"
+msgstr "Exporter les commandes"
+
+#: includes/class-wc-woosheets-setting.php:157
+msgid "Envato Market"
+msgstr "Envato Market"
+
+#: includes/class-wc-woosheets-setting.php:158
+msgid "Support"
+msgstr "Soutien"
+
+#: includes/class-wc-woosheets-setting.php:161
+msgid "Google API Settings"
+msgstr "Paramètres de l'API Google"
+
+#: includes/class-wc-woosheets-setting.php:162
+msgid ""
+"Create new google APIs with Client ID and Client Secret keys to get an "
+"access for the google drive and google sheets. Please follow the "
+"documentation, login to your Gmail Account and start with"
+msgstr ""
+"Créez de nouvelles API Google avec l'ID Client et les clés Client Secret "
+"pour accéder au lecteur google et aux feuilles google. Veuillez suivre la "
+"documentation, vous connecter à votre compte Gmail et commencer par"
+
+#: includes/class-wc-woosheets-setting.php:163
+#: includes/class-wc-woosheets-setting.php:411
+msgid "here"
+msgstr "ici"
+
+#: includes/class-wc-woosheets-setting.php:173
+msgid "Client Id"
+msgstr "Identité du client"
+
+#: includes/class-wc-woosheets-setting.php:179
+msgid "Client Secret"
+msgstr "Secret client"
+
+#: includes/class-wc-woosheets-setting.php:191
+msgid "Client Token"
+msgstr "Jeton client"
+
+#: includes/class-wc-woosheets-setting.php:197
+msgid "Click here to generate an Authentication Token"
+msgstr "Cliquez ici pour générer un jeton d'authentification"
+
+#: includes/class-wc-woosheets-setting.php:228
+msgid "General Settings"
+msgstr "réglages généraux"
+
+#: includes/class-wc-woosheets-setting.php:240
+#: includes/class-wc-woosheets-setting.php:329
+msgid "Please genearate authentication code from"
+msgstr "Veuillez générer le code d'authentification à partir de"
+
+#: includes/class-wc-woosheets-setting.php:240
+#: includes/class-wc-woosheets-setting.php:329
+msgid "Google API Setting"
+msgstr "Paramètres de l'API Google"
+
+#: includes/class-wc-woosheets-setting.php:241
+#: includes/class-wc-woosheets-setting.php:330
+msgid "Click"
+msgstr "Cliquez sur"
+
+#: includes/class-wc-woosheets-setting.php:247
+msgid ""
+"You can export all orders or select custom order date range with below "
+"settings. It will create new spreadsheet in your Google Drive."
+msgstr ""
+"Vous pouvez exporter toutes les commandes ou sélectionner la plage de dates "
+"de commande personnalisée avec les paramètres ci-dessous. Il créera une "
+"nouvelle feuille de calcul dans votre Google Drive."
+
+#: includes/class-wc-woosheets-setting.php:267
+#: includes/class-wc-woosheets-setting.php:269
+msgid "Enter Spreadsheet Name"
+msgstr "Entrez le nom de la feuille de calcul"
+
+#: includes/class-wc-woosheets-setting.php:273
+msgid "Order Date Range"
+msgstr "Gamme de dates de commande"
+
+#: includes/class-wc-woosheets-setting.php:275
+msgid "From :"
+msgstr "De :"
+
+#: includes/class-wc-woosheets-setting.php:279
+msgid "To :"
+msgstr "À:"
+
+#: includes/class-wc-woosheets-setting.php:283
+msgid "Export All Orders"
+msgstr "Exportation toutes les commandes"
+
+#: includes/class-wc-woosheets-setting.php:293
+msgid "Select Category"
+msgstr "Sélectionner une catégorie"
+
+#: includes/class-wc-woosheets-setting.php:306
+msgid ""
+"Select orders of below product categories as you want export within the "
+"spreadsheet."
+msgstr ""
+"Sélectionnez les commandes des catégories de produits ci-dessous, car vous "
+"souhaitez exporter dans la feuille de calcul."
+
+#: includes/class-wc-woosheets-setting.php:317
+#: includes/class-wc-woosheets-setting.php:1495
+#: includes/class-wc-woosheets-setting.php:1581
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: includes/class-wc-woosheets-setting.php:318
+#: includes/class-wc-woosheets-setting.php:1496
+#: includes/class-wc-woosheets-setting.php:1582
+msgid "Select none"
+msgstr "Ne rien sélectionner"
+
+#: includes/class-wc-woosheets-setting.php:325
+msgid "Please wait..."
+msgstr "Veuillez patienter..."
+
+#: includes/class-wc-woosheets-setting.php:336
+msgid "Envato Market Settings"
+msgstr "Paramètres du marché Envato"
+
+#: includes/class-wc-woosheets-setting.php:341
+msgid ""
+"This settings will give you smooth update experience for WooSheets "
+"customers. It will also notify users for new updates of the plugin."
+msgstr ""
+"Ces paramètres vous offriront une expérience de mise à jour fluide pour les "
+"clients WooSheets. Il informera également les utilisateurs des nouvelles "
+"mises à jour du plugin."
+
+#: includes/class-wc-woosheets-setting.php:345
+msgid "WooSheets - Manage WooCommerce Orders with Google Spreadsheet"
+msgstr "WooSheets - Gérer les commandes WooCommerce avec Google Spreadsheet"
+
+#: includes/class-wc-woosheets-setting.php:346
+msgid "Please follow the steps below:"
+msgstr "Veuillez suivre les étapes ci-dessous:"
+
+#: includes/class-wc-woosheets-setting.php:348
+msgid "Generate an Envato API Personal Token by"
+msgstr "Générez un jeton personnel pour l'API Envato en"
+
+#: includes/class-wc-woosheets-setting.php:348
+msgid "clicking this link"
+msgstr "en cliquant sur ce lien"
+
+#: includes/class-wc-woosheets-setting.php:349
+msgid "Name the token eg “My WordPress site”."
+msgstr "Nommez le jeton, par exemple «Mon site WordPress»."
+
+#: includes/class-wc-woosheets-setting.php:350
+msgid "Ensure the following permissions are enabled:"
+msgstr "Assurez-vous que les autorisations suivantes sont activées:"
+
+#: includes/class-wc-woosheets-setting.php:352
+msgid "View and search Envato sites"
+msgstr "Afficher et rechercher des sites Envato"
+
+#: includes/class-wc-woosheets-setting.php:353
+msgid "Download your purchased items"
+msgstr "Téléchargez vos articles achetés"
+
+#: includes/class-wc-woosheets-setting.php:354
+msgid "List purchases you've made"
+msgstr "Liste des achats que vous avez effectués"
+
+#: includes/class-wc-woosheets-setting.php:357
+msgid "Copy the token into the Envato API Personal Token box."
+msgstr "Copiez le jeton dans la zone Jeton personnel de l'API Envato."
+
+#: includes/class-wc-woosheets-setting.php:358
+msgid "Click the \"Save\" button."
+msgstr "Cliquez sur le bouton \"Enregistrer\"."
+
+#: includes/class-wc-woosheets-setting.php:370
+msgid "Activating..."
+msgstr "Activation..."
+
+#: includes/class-wc-woosheets-setting.php:375
+msgid "We're here to help."
+msgstr "Nous sommes là pour vous aider."
+
+#: includes/class-wc-woosheets-setting.php:376
+msgid ""
+"If you have a problem that you can't solve with our knowledge base "
+"documentation, you can send a message to our support team. They can be "
+"reached 24/7."
+msgstr ""
+"Si vous avez un problème que vous ne pouvez pas résoudre avec notre "
+"documentation de base de connaissances, vous pouvez envoyer un message à "
+"notre équipe d'assistance. Ils sont joignables 24h / 24 et 7j / 7."
+
+#: includes/class-wc-woosheets-setting.php:379
+msgid "Need Help?"
+msgstr "Besoin d'aide?"
+
+#: includes/class-wc-woosheets-setting.php:381
+msgid "Visit Our Support Center 24/7 to Submit A Ticket"
+msgstr "Visitez notre centre d'assistance 24/7 pour soumettre un ticket"
+
+#: includes/class-wc-woosheets-setting.php:382
+msgid "Submit A Ticket"
+msgstr "Soumettre un ticket"
+
+#: includes/class-wc-woosheets-setting.php:386
+msgid "Support Includes"
+msgstr "Le soutien comprend"
+
+#: includes/class-wc-woosheets-setting.php:388
+msgid "Responding to questions or problems regarding the plugin's features"
+msgstr ""
+"Répondre aux questions ou aux problèmes concernant les fonctionnalités du "
+"plugin"
+
+#: includes/class-wc-woosheets-setting.php:389
+msgid "Fixing bugs and reported issues"
+msgstr "Correction des bogues et des problèmes signalés"
+
+#: includes/class-wc-woosheets-setting.php:390
+msgid ""
+"Providing updates for the most popular plugins to ensure compatibility with "
+"new software versions"
+msgstr ""
+"Fournir des mises à jour pour les plugins les plus populaires pour assurer "
+"la compatibilité avec les nouvelles versions logicielles"
+
+#: includes/class-wc-woosheets-setting.php:391
+msgid "Support for 3rd party plug-ins"
+msgstr "Soutien aux plug-ins tiers"
+
+#: includes/class-wc-woosheets-setting.php:393
+msgid "Does NOT Include"
+msgstr "N'inclut PAS"
+
+#: includes/class-wc-woosheets-setting.php:395
+msgid "Plugin Customization"
+msgstr "Personnalisation Plugin"
+
+#: includes/class-wc-woosheets-setting.php:396
+msgid "Requests that require Custom Coding"
+msgstr "Demandes nécessitant un codage personnalisé"
+
+#: includes/class-wc-woosheets-setting.php:399
+msgid "http://www.xhtmlpoint.com/WooSheets/Documentation/faq.html"
+msgstr "http://www.xhtmlpoint.com/WooSheets/Documentation/faq.html"
+
+#: includes/class-wc-woosheets-setting.php:399
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/class-wc-woosheets-setting.php:400
+msgid ""
+"http://www.xhtmlpoint.com/WooSheets/Documentation/plugins-compatibility.html"
+msgstr ""
+"http://www.xhtmlpoint.com/WooSheets/Documentation/plugins-compatibility.html"
+
+#: includes/class-wc-woosheets-setting.php:400
+msgid "Plugins Compatibility List"
+msgstr "Liste de compatibilité Plugins"
+
+#: includes/class-wc-woosheets-setting.php:404
+msgid ""
+"Support is included 6 months for customers regarding bugs and issues related "
+"with our products. You can extend this period up to 12 months."
+msgstr ""
+"Le support est inclus 6 mois pour les clients concernant les bugs et les "
+"problèmes liés à nos produits. Vous pouvez prolonger cette période jusqu'à "
+"12 mois."
+
+#: includes/class-wc-woosheets-setting.php:405
+msgid "What's not included in item support!"
+msgstr "Ce qui n'est pas inclus dans le support de l'élément!"
+
+#: includes/class-wc-woosheets-setting.php:407
+msgid "Item Customization"
+msgstr "Personnalisation d'objets"
+
+#: includes/class-wc-woosheets-setting.php:408
+msgid "Hosting, Server Environment, or Software Changes"
+msgstr "Hébergement, environnement serveur ou modifications logicielles"
+
+#: includes/class-wc-woosheets-setting.php:409
+msgid "Help from authors of included third party assets"
+msgstr "Aide des auteurs d'actifs tiers inclus"
+
+#: includes/class-wc-woosheets-setting.php:411
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: includes/class-wc-woosheets-setting.php:411
+msgid "http://codecanyon.net/page/item_support_policy"
+msgstr "http://codecanyon.net/page/item_support_policy"
+
+#: includes/class-wc-woosheets-setting.php:529
+msgid "Select Spreadsheet"
+msgstr "Sélectionnez Feuille de calcul"
+
+#: includes/class-wc-woosheets-setting.php:530
+msgid "Please select Google Spreadsheet."
+msgstr "Veuillez sélectionner Google Spreadsheet."
+
+#: includes/class-wc-woosheets-setting.php:547
+msgid "Default Order Status"
+msgstr "Statut de commande par défaut"
+
+#: includes/class-wc-woosheets-setting.php:553
+msgid "Pending Orders"
+msgstr "Commandes en cours"
+
+#: includes/class-wc-woosheets-setting.php:560
+msgid "Processing Orders"
+msgstr "Traitement des commandes"
+
+#: includes/class-wc-woosheets-setting.php:567
+msgid "On hold Orders"
+msgstr "Ordonnances en attente"
+
+#: includes/class-wc-woosheets-setting.php:574
+msgid "Completed Orders"
+msgstr "Commandes terminées"
+
+#: includes/class-wc-woosheets-setting.php:581
+msgid "Cancelled Orders"
+msgstr "Commandes annulées"
+
+#: includes/class-wc-woosheets-setting.php:588
+msgid "Refunded Orders"
+msgstr "Commandes remboursées"
+
+#: includes/class-wc-woosheets-setting.php:595
+msgid "Failed Orders"
+msgstr "Ordonnances échouées"
+
+#: includes/class-wc-woosheets-setting.php:602
+msgid "Trash Orders"
+msgstr "Commandes de déchets"
+
+#: includes/class-wc-woosheets-setting.php:638
+msgid "Freeze Header"
+msgstr "En-tête de gel"
+
+#: includes/class-wc-woosheets-setting.php:658
+msgid "Custom Order Status"
+msgstr "Statut de commande personnalisé"
+
+#: includes/class-wc-woosheets-setting.php:759
+msgid "Select Google Spreeadsheet List"
+msgstr "Sélectionnez Google Spreeadsheet List"
+
+#: includes/class-wc-woosheets-setting.php:773
+#: includes/class-wc-woosheets-setting.php:778
+msgid "Create New Spreadsheet"
+msgstr "Créer une nouvelle feuille de calcul"
+
+#: includes/class-wc-woosheets-setting.php:1458
+msgid "Sheet Headers"
+msgstr "En-têtes de feuille"
+
+#: includes/class-wc-woosheets-setting.php:1460
+msgid ""
+"Currently sheet headers are disabled because it will be mismatch your "
+"current spreadsheet data. If you still want to enable sheet headers than "
+"select spreadsheet dropdown option with create new spreadsheets on top."
+msgstr ""
+"Actuellement, les en-têtes de feuille sont désactivés car ils ne "
+"correspondent pas à vos données de feuille de calcul actuelles. Si vous "
+"souhaitez toujours activer les en-têtes de feuille, sélectionnez l'option de "
+"liste déroulante de feuille de calcul avec créer de nouvelles feuilles de "
+"calcul en haut."
+
+#: includes/class-wc-woosheets-setting.php:1552
+msgid ""
+"Below all the product names will automatically create columns in spreadsheet "
+"with value as product quantity and Append after dropdown will add inbetween "
+"all the product names as per your dropdown selection in spreadsheet."
+msgstr ""
+"Ci-dessous tous les noms de produits créeront automatiquement des colonnes "
+"dans la feuille de calcul avec la valeur que la quantité de produit et "
+"Append après déclassement ajoutera entre tous les noms de produit selon "
+"votre sélection de déclassement dans la feuille de calcul."
+
+#: includes/class-wc-woosheets-setting.php:1801
+msgid "Sync Orders"
+msgstr "Ordres de synchronisation"
+
+#: includes/class-wc-woosheets-setting.php:1804
+msgid "Synchronizing..."
+msgstr "Synchronisation..."
+
+#: includes/class-wc-woosheets-setting.php:1806
+msgid "Click to Sync"
+msgstr "Cliquez pour synchroniser"
+
+#: includes/class-wc-woosheets-setting.php:1808
+#: includes/class-wc-woosheets-setting.php:1868
+msgid "Note"
+msgstr "Remarque"
+
+#: includes/class-wc-woosheets-setting.php:1808
+msgid ""
+"Click to Sync button will be append all the existing orders to the selected "
+"sheets as above."
+msgstr ""
+"Le bouton Cliquer pour synchroniser ajoutera toutes les commandes existantes "
+"aux feuilles sélectionnées comme ci-dessus."
+
+#: includes/class-wc-woosheets-setting.php:1822
+msgid "Product Name as sheets headers"
+msgstr "Nom du produit en tant qu'en-têtes de feuilles"
+
+#: includes/class-wc-woosheets-setting.php:1837
+msgid "Custom Static Headers"
+msgstr "Demandes nécessitant un codage personnalisé"
+
+#: includes/class-wc-woosheets-setting.php:1845
+msgid "Add"
+msgstr "Ajouter"
+
+#: includes/class-wc-woosheets-setting.php:1862
+msgid "Allow to copy same columns"
+msgstr "Autoriser à copier les mêmes colonnes"
+
+#: includes/class-wc-woosheets-setting.php:1868
+msgid ""
+"It will allow to copy same columns into the rows i.e. Billing First Name, "
+"Billing Last Name etc."
+msgstr ""
+"Cela permettra de copier les mêmes colonnes dans les lignes, c'est-à-dire le "
+"prénom de facturation, le nom de famille de facturation, etc."
+
+#: includes/class-wc-woosheets-setting.php:1868
+msgid "For More Details"
+msgstr "Pour plus de détails"
+
+#: includes/class-wc-woosheets-setting.php:1868
+msgid "click here."
+msgstr "cliquez ici."
+
+#: includes/class-wc-woosheets-setting.php:1882
+msgid "Enter New Spreadsheet name"
+msgstr "Entrez le nouveau nom de la feuille de calcul"
+
+#: includes/class-wc-woosheets-setting.php:1912
+msgid "Manage Row Data"
+msgstr "Gérer les données de ligne"
+
+#: includes/class-wc-woosheets-setting.php:1915
+msgid "Order Wise"
+msgstr "Order Wise"
+
+#: includes/class-wc-woosheets-setting.php:1916
+msgid "Product Wise"
+msgstr "Produit sage"

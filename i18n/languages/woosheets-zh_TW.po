@@ -1,0 +1,507 @@
+# Copyright (C) 2020 Creative Werk Designs
+# This file is distributed under the same license as the WooSheets plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooSheets 3.9.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woosheets\n"
+"POT-Creation-Date: 2020-02-17T14:05:16+01:00\n"
+"PO-Revision-Date: 2020-02-17 18:37+0530\n"
+"Last-Translator: test <test@test.com>\n"
+"Language-Team: Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: woosheets\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2\n"
+
+#. Plugin Name of the plugin
+#: includes/class-wc-woosheets-setting.php:55
+msgid "WooSheets"
+msgstr "WooSheets"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.creativewerkdesigns.com/"
+msgstr "http://www.creativewerkdesigns.com/"
+
+#. Description of the plugin
+msgid ""
+"Manage WooCommerce Orders with Google Spreadsheet - Add new row whenever new "
+"order has been placed and automatically move order row whenever order status "
+"has been changed within Google Sheet."
+msgstr ""
+"Manage WooCommerce Orders with Google Spreadsheet - Add new row whenever new "
+"order has been placed and automatically move order row whenever order status "
+"has been changed within Google Sheet."
+
+#. Author of the plugin
+msgid "Creative Werk Designs"
+msgstr "Creative Werk Designs"
+
+#: includes/class-wc-woosheets-setting.php:104
+msgid "View Documentation"
+msgstr "查看文件"
+
+#: includes/class-wc-woosheets-setting.php:104
+#: includes/class-wc-woosheets-setting.php:148
+msgid "Documentation"
+msgstr "文献资料"
+
+#: includes/class-wc-woosheets-setting.php:154
+msgid "Google API"
+msgstr "Google API"
+
+#: includes/class-wc-woosheets-setting.php:154
+#: includes/class-wc-woosheets-setting.php:155
+#: includes/class-wc-woosheets-setting.php:157
+msgid "Settings"
+msgstr "设定值"
+
+#: includes/class-wc-woosheets-setting.php:155
+msgid "General"
+msgstr "一般"
+
+#: includes/class-wc-woosheets-setting.php:156
+#: includes/class-wc-woosheets-setting.php:246
+msgid "Export Orders"
+msgstr "匯出訂單"
+
+#: includes/class-wc-woosheets-setting.php:157
+msgid "Envato Market"
+msgstr "Envato市场"
+
+#: includes/class-wc-woosheets-setting.php:158
+msgid "Support"
+msgstr "支持"
+
+#: includes/class-wc-woosheets-setting.php:161
+msgid "Google API Settings"
+msgstr "Google API Settings"
+
+#: includes/class-wc-woosheets-setting.php:162
+msgid ""
+"Create new google APIs with Client ID and Client Secret keys to get an "
+"access for the google drive and google sheets. Please follow the "
+"documentation, login to your Gmail Account and start with"
+msgstr ""
+"使用客户端ID和客户端密钥创建新的Google API，以访问Google驱动器和Google表格。"
+"请按照文档进行操作，登录到您的Gmail帐户，然后从"
+
+#: includes/class-wc-woosheets-setting.php:163
+#: includes/class-wc-woosheets-setting.php:411
+msgid "here"
+msgstr "这里"
+
+#: includes/class-wc-woosheets-setting.php:173
+msgid "Client Id"
+msgstr "客户编号"
+
+#: includes/class-wc-woosheets-setting.php:179
+msgid "Client Secret"
+msgstr "客户机密"
+
+#: includes/class-wc-woosheets-setting.php:191
+msgid "Client Token"
+msgstr "客户令牌"
+
+#: includes/class-wc-woosheets-setting.php:197
+msgid "Click here to generate an Authentication Token"
+msgstr "单击此处生成身份验证令牌"
+
+#: includes/class-wc-woosheets-setting.php:228
+msgid "General Settings"
+msgstr "通用设置"
+
+#: includes/class-wc-woosheets-setting.php:240
+#: includes/class-wc-woosheets-setting.php:329
+msgid "Please genearate authentication code from"
+msgstr "请生成来自的身份验证代码"
+
+#: includes/class-wc-woosheets-setting.php:240
+#: includes/class-wc-woosheets-setting.php:329
+msgid "Google API Setting"
+msgstr "Google API Setting"
+
+#: includes/class-wc-woosheets-setting.php:241
+#: includes/class-wc-woosheets-setting.php:330
+msgid "Click"
+msgstr "请点击"
+
+#: includes/class-wc-woosheets-setting.php:247
+msgid ""
+"You can export all orders or select custom order date range with below "
+"settings. It will create new spreadsheet in your Google Drive."
+msgstr ""
+"您可以匯出所有訂單或選擇自訂訂單日期範圍，設置如下。它將在您的 Google 雲端硬"
+"碟中創建新的試算表。"
+
+#: includes/class-wc-woosheets-setting.php:267
+#: includes/class-wc-woosheets-setting.php:269
+msgid "Enter Spreadsheet Name"
+msgstr "輸入試算表名稱"
+
+#: includes/class-wc-woosheets-setting.php:273
+msgid "Order Date Range"
+msgstr "訂單日期範圍"
+
+#: includes/class-wc-woosheets-setting.php:275
+msgid "From :"
+msgstr "來自:"
+
+#: includes/class-wc-woosheets-setting.php:279
+msgid "To :"
+msgstr "自："
+
+#: includes/class-wc-woosheets-setting.php:283
+msgid "Export All Orders"
+msgstr "匯出所有訂單"
+
+#: includes/class-wc-woosheets-setting.php:293
+msgid "Select Category"
+msgstr "選擇類別"
+
+#: includes/class-wc-woosheets-setting.php:306
+msgid ""
+"Select orders of below product categories as you want export within the "
+"spreadsheet."
+msgstr "選擇要在試算表中匯出以下產品類別的訂單。"
+
+#: includes/class-wc-woosheets-setting.php:317
+#: includes/class-wc-woosheets-setting.php:1495
+#: includes/class-wc-woosheets-setting.php:1581
+msgid "Select all"
+msgstr "全选"
+
+#: includes/class-wc-woosheets-setting.php:318
+#: includes/class-wc-woosheets-setting.php:1496
+#: includes/class-wc-woosheets-setting.php:1582
+msgid "Select none"
+msgstr "选择无"
+
+#: includes/class-wc-woosheets-setting.php:325
+msgid "Please wait..."
+msgstr "請稍候..."
+
+#: includes/class-wc-woosheets-setting.php:336
+msgid "Envato Market Settings"
+msgstr "Envato Market Settings"
+
+#: includes/class-wc-woosheets-setting.php:341
+msgid ""
+"This settings will give you smooth update experience for WooSheets "
+"customers. It will also notify users for new updates of the plugin."
+msgstr ""
+"This settings will give you smooth update experience for WooSheets "
+"customers. It will also notify users for new updates of the plugin."
+
+#: includes/class-wc-woosheets-setting.php:345
+msgid "WooSheets - Manage WooCommerce Orders with Google Spreadsheet"
+msgstr "WooSheets - Manage WooCommerce Orders with Google Spreadsheet"
+
+#: includes/class-wc-woosheets-setting.php:346
+msgid "Please follow the steps below:"
+msgstr "请按照以下步骤操作："
+
+#: includes/class-wc-woosheets-setting.php:348
+msgid "Generate an Envato API Personal Token by"
+msgstr "Generate an Envato API Personal Token by"
+
+#: includes/class-wc-woosheets-setting.php:348
+msgid "clicking this link"
+msgstr "点击此链接"
+
+#: includes/class-wc-woosheets-setting.php:349
+msgid "Name the token eg “My WordPress site”."
+msgstr "Name the token eg “My WordPress site”."
+
+#: includes/class-wc-woosheets-setting.php:350
+msgid "Ensure the following permissions are enabled:"
+msgstr "确保启用以下权限："
+
+#: includes/class-wc-woosheets-setting.php:352
+msgid "View and search Envato sites"
+msgstr "查看和搜索Envato网站"
+
+#: includes/class-wc-woosheets-setting.php:353
+msgid "Download your purchased items"
+msgstr "下载您购买的物品"
+
+#: includes/class-wc-woosheets-setting.php:354
+msgid "List purchases you've made"
+msgstr "列出您已完成的购买"
+
+#: includes/class-wc-woosheets-setting.php:357
+msgid "Copy the token into the Envato API Personal Token box."
+msgstr "将令牌复制到Envato API个人令牌框中。"
+
+#: includes/class-wc-woosheets-setting.php:358
+msgid "Click the \"Save\" button."
+msgstr "点击“保存”按钮。"
+
+#: includes/class-wc-woosheets-setting.php:370
+msgid "Activating..."
+msgstr "激活..."
+
+#: includes/class-wc-woosheets-setting.php:375
+msgid "We're here to help."
+msgstr "我们在这里为您提供帮助。"
+
+#: includes/class-wc-woosheets-setting.php:376
+msgid ""
+"If you have a problem that you can't solve with our knowledge base "
+"documentation, you can send a message to our support team. They can be "
+"reached 24/7."
+msgstr ""
+"如果您有我们的知识库文档无法解决的问题，可以向我们的支持团队发送消息。他们可"
+"以达到24/7。"
+
+#: includes/class-wc-woosheets-setting.php:379
+msgid "Need Help?"
+msgstr "需要帮忙？"
+
+#: includes/class-wc-woosheets-setting.php:381
+msgid "Visit Our Support Center 24/7 to Submit A Ticket"
+msgstr "请访问我们的支持中心24/7提交票证"
+
+#: includes/class-wc-woosheets-setting.php:382
+msgid "Submit A Ticket"
+msgstr "提交工单"
+
+#: includes/class-wc-woosheets-setting.php:386
+msgid "Support Includes"
+msgstr "支持包括"
+
+#: includes/class-wc-woosheets-setting.php:388
+msgid "Responding to questions or problems regarding the plugin's features"
+msgstr "回答有关插件功能的问题"
+
+#: includes/class-wc-woosheets-setting.php:389
+msgid "Fixing bugs and reported issues"
+msgstr "修复错误和报告的问题"
+
+#: includes/class-wc-woosheets-setting.php:390
+msgid ""
+"Providing updates for the most popular plugins to ensure compatibility with "
+"new software versions"
+msgstr "提供最受欢迎插件的更新，以确保与新软件版本的兼容性"
+
+#: includes/class-wc-woosheets-setting.php:391
+msgid "Support for 3rd party plug-ins"
+msgstr "支持第三方插件"
+
+#: includes/class-wc-woosheets-setting.php:393
+msgid "Does NOT Include"
+msgstr "不包括"
+
+#: includes/class-wc-woosheets-setting.php:395
+msgid "Plugin Customization"
+msgstr "插件定制"
+
+#: includes/class-wc-woosheets-setting.php:396
+msgid "Requests that require Custom Coding"
+msgstr "需要自定义编码的请求"
+
+#: includes/class-wc-woosheets-setting.php:399
+msgid "http://www.xhtmlpoint.com/WooSheets/Documentation/faq.html"
+msgstr "http://www.xhtmlpoint.com/WooSheets/Documentation/faq.html"
+
+#: includes/class-wc-woosheets-setting.php:399
+msgid "FAQ"
+msgstr "常问问题"
+
+#: includes/class-wc-woosheets-setting.php:400
+msgid ""
+"http://www.xhtmlpoint.com/WooSheets/Documentation/plugins-compatibility.html"
+msgstr ""
+"http://www.xhtmlpoint.com/WooSheets/Documentation/plugins-compatibility.html"
+
+#: includes/class-wc-woosheets-setting.php:400
+msgid "Plugins Compatibility List"
+msgstr "插件兼容性列表"
+
+#: includes/class-wc-woosheets-setting.php:404
+msgid ""
+"Support is included 6 months for customers regarding bugs and issues related "
+"with our products. You can extend this period up to 12 months."
+msgstr ""
+"包含6个月的客户支持服务，涉及与我们产品相关的错误和问题。您可以将此期限延长至"
+"12个月。"
+
+#: includes/class-wc-woosheets-setting.php:405
+msgid "What's not included in item support!"
+msgstr "项目支持中未包含的内容！"
+
+#: includes/class-wc-woosheets-setting.php:407
+msgid "Item Customization"
+msgstr "物品定制"
+
+#: includes/class-wc-woosheets-setting.php:408
+msgid "Hosting, Server Environment, or Software Changes"
+msgstr "托管，服务器环境或软件更改"
+
+#: includes/class-wc-woosheets-setting.php:409
+msgid "Help from authors of included third party assets"
+msgstr "包含第三方资产作者的帮助"
+
+#: includes/class-wc-woosheets-setting.php:411
+msgid "Read more"
+msgstr "阅读更多"
+
+#: includes/class-wc-woosheets-setting.php:411
+msgid "http://codecanyon.net/page/item_support_policy"
+msgstr "http://codecanyon.net/page/item_support_policy"
+
+#: includes/class-wc-woosheets-setting.php:529
+msgid "Select Spreadsheet"
+msgstr "Select Spreadsheet"
+
+#: includes/class-wc-woosheets-setting.php:530
+msgid "Please select Google Spreadsheet."
+msgstr "Please select Google Spreadsheet."
+
+#: includes/class-wc-woosheets-setting.php:547
+msgid "Default Order Status"
+msgstr "默认订单状态"
+
+#: includes/class-wc-woosheets-setting.php:553
+msgid "Pending Orders"
+msgstr "待处理订单"
+
+#: includes/class-wc-woosheets-setting.php:560
+msgid "Processing Orders"
+msgstr "处理订单"
+
+#: includes/class-wc-woosheets-setting.php:567
+msgid "On hold Orders"
+msgstr "暂停订单"
+
+#: includes/class-wc-woosheets-setting.php:574
+msgid "Completed Orders"
+msgstr "已完成的订单"
+
+#: includes/class-wc-woosheets-setting.php:581
+msgid "Cancelled Orders"
+msgstr "取消的订单"
+
+#: includes/class-wc-woosheets-setting.php:588
+msgid "Refunded Orders"
+msgstr "退款订单"
+
+#: includes/class-wc-woosheets-setting.php:595
+msgid "Failed Orders"
+msgstr "订单失败"
+
+#: includes/class-wc-woosheets-setting.php:602
+msgid "Trash Orders"
+msgstr "垃圾箱订单"
+
+#: includes/class-wc-woosheets-setting.php:638
+msgid "Freeze Header"
+msgstr "冻结标题"
+
+#: includes/class-wc-woosheets-setting.php:658
+msgid "Custom Order Status"
+msgstr "自定义订单状态"
+
+#: includes/class-wc-woosheets-setting.php:759
+msgid "Select Google Spreeadsheet List"
+msgstr "Select Google Spreeadsheet List"
+
+#: includes/class-wc-woosheets-setting.php:773
+#: includes/class-wc-woosheets-setting.php:778
+msgid "Create New Spreadsheet"
+msgstr "创建新的电子表格"
+
+#: includes/class-wc-woosheets-setting.php:1458
+msgid "Sheet Headers"
+msgstr "工作表标题"
+
+#: includes/class-wc-woosheets-setting.php:1460
+msgid ""
+"Currently sheet headers are disabled because it will be mismatch your "
+"current spreadsheet data. If you still want to enable sheet headers than "
+"select spreadsheet dropdown option with create new spreadsheets on top."
+msgstr ""
+"当前工作表标题已禁用，因为它会与您当前的电子表格数据不匹配。如果您仍要启用工"
+"作表标题，则可以选择“电子表格”下拉选项，并在顶部创建新电子表格。"
+
+#: includes/class-wc-woosheets-setting.php:1552
+msgid ""
+"Below all the product names will automatically create columns in spreadsheet "
+"with value as product quantity and Append after dropdown will add inbetween "
+"all the product names as per your dropdown selection in spreadsheet."
+msgstr ""
+"在以下所有產品名稱將自動在試算表中創建具有產品數量詞的列，下拉清單後追加將在"
+"所有產品名稱之間添加，根據試算表中的下拉選擇。"
+
+#: includes/class-wc-woosheets-setting.php:1801
+msgid "Sync Orders"
+msgstr "同步订单"
+
+#: includes/class-wc-woosheets-setting.php:1804
+msgid "Synchronizing..."
+msgstr "同步中..."
+
+#: includes/class-wc-woosheets-setting.php:1806
+msgid "Click to Sync"
+msgstr "点击同步"
+
+#: includes/class-wc-woosheets-setting.php:1808
+#: includes/class-wc-woosheets-setting.php:1868
+msgid "Note"
+msgstr "注意"
+
+#: includes/class-wc-woosheets-setting.php:1808
+msgid ""
+"Click to Sync button will be append all the existing orders to the selected "
+"sheets as above."
+msgstr "单击“同步”按钮将把所有现有订单附加到如上所述的所选工作表上。"
+
+#: includes/class-wc-woosheets-setting.php:1822
+msgid "Product Name as sheets headers"
+msgstr "產品名稱作為頁眉"
+
+#: includes/class-wc-woosheets-setting.php:1837
+msgid "Custom Static Headers"
+msgstr "自定义静态标题"
+
+#: includes/class-wc-woosheets-setting.php:1845
+msgid "Add"
+msgstr "加"
+
+#: includes/class-wc-woosheets-setting.php:1862
+msgid "Allow to copy same columns"
+msgstr "允许复制相同的列"
+
+#: includes/class-wc-woosheets-setting.php:1868
+msgid ""
+"It will allow to copy same columns into the rows i.e. Billing First Name, "
+"Billing Last Name etc."
+msgstr "它将允许将相同的列复制到行中，即帐单名，帐单名等。"
+
+#: includes/class-wc-woosheets-setting.php:1868
+msgid "For More Details"
+msgstr "更多细节"
+
+#: includes/class-wc-woosheets-setting.php:1868
+msgid "click here."
+msgstr "点击这里。"
+
+#: includes/class-wc-woosheets-setting.php:1882
+msgid "Enter New Spreadsheet name"
+msgstr "输入新的电子表格名称"
+
+#: includes/class-wc-woosheets-setting.php:1912
+msgid "Manage Row Data"
+msgstr "列出您已完成的购买"
+
+#: includes/class-wc-woosheets-setting.php:1915
+msgid "Order Wise"
+msgstr "明智的订购"
+
+#: includes/class-wc-woosheets-setting.php:1916
+msgid "Product Wise"
+msgstr "产品明智"

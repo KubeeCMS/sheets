@@ -1,0 +1,22 @@
+{
+  "name": "kubeecms/sheets",
+  "description": "Manage and Sincronize Orders with Google Spreadsheet.",
+  "keywords": ["kcms-sheets", "sheets", "google-sheets", "kcms", "network", "administration", "menu", "kubee-kcms", "kubee"],
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/KubeeCMS/sheets/",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "KubeeCMS",
+      "homepage": "https://github.com/KubeeCMS/sheets/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/KubeeCMS/sheets//issues/",
+    "source": "https://github.com/KubeeCMS/sheets/"
+  },
+  "require": {
+    "php": ">=7.3"
+  }
+}
